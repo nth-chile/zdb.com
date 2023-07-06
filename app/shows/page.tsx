@@ -1,14 +1,15 @@
-// import Player from '../../../fs-audio/dist/Player'
-// import getData from '../../../fs-audio/dist/fs-audio-gcloud'
-// import '../../fs-audio/dist/style.css'
+// import Player from '../../../fs-shows/dist/Player'
+// import getData from '../../../fs-shows/dist/fs-shows-gcloud'
+// import '../../../fs-shows/dist/style.css'
 
-// export default async function Home() {
+// export default async function Shows() {
 //   const data = await getData('zdb-shows')
 
 // return <Player
-//     title="Lizzards"
+//     title="Live Shows"
 //     data={data}
-//     basePath="/"
+//     basePath="/shows"
+//     yearsDirectory={false}
 //   />
 // }
 
