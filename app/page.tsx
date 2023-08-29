@@ -25,6 +25,11 @@ export default async function Home() {
               Instagram
             </a>
           </li>
+          <li>
+            <a className="hover:underline " href="shows" aria-label="shows">
+              Stream past shows
+            </a>
+          </li>
         </ul>
       </main>
     </Background>
