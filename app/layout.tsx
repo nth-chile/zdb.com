@@ -20,7 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`bg-black ${font.className}`}>{children}</body>
+      <body className={`bg-black ${font.className}`}>
+        {children}
+        {/* Cloudflare Web Analytics */}
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "219323fc33984841ae8d442c62b9e6cd"}' />
+      </body>
     </html>
   )
 }

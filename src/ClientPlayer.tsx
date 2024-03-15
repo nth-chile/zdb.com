@@ -2,6 +2,7 @@
 
 import dynamic from 'next/dynamic'
 import { PlayerProps } from 'fs-shows/dist/Player'
+// import { PlayerProps } from '../../fs-shows/dist/Player'
  
 const DynamicPlayer = dynamic(() => import('fs-shows/dist/Player'), {
   loading: () => <p>Loading...</p>,

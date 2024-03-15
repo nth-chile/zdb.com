@@ -1,6 +1,6 @@
 // https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#generate-icons-using-code-js-ts-tsx
 
-import { ImageResponse } from 'next/server'
+import { ImageResponse } from 'next/og'
 
 // Image metadata
 export const size = {
