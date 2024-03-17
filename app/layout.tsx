@@ -22,10 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`bg-black ${font.className}`}>
         {children}
-        {/* Cloudflare Web Analytics zannaduband.com */}
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "219323fc33984841ae8d442c62b9e6cd"}' />
-        {/* Cloudflare Web Analytics: zannadu.band */}
-        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "b0d24829b92143979b0108659e4efbbe"}' />
+        {/* Analytics: https://counter.dev/ */}
+        <script src="https://cdn.counter.dev/script.js" data-id="588e79c0-02ae-4811-b033-59f6034fd66f" data-utcoffset="-4"></script>
       </body>
     </html>
   )
