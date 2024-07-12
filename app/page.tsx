@@ -11,18 +11,18 @@ export default async function Home() {
             </a>
           </li>
           <li>
-            <a className="hover:underline " href="mailto:jaredsalzano@gmail.com" target="_blank" aria-label="email">
-              Email
-            </a>
-          </li>
-          <li>
-            <a className="hover:underline " href="https://www.facebook.com/profile.php?id=100093903192836" target="_blank" aria-label="facebook">
-              Facebook
+            <a className="hover:underline " href="https://www.youtube.com/playlist?list=PLmzAQacNC7E3TFFxDnnlnFaXg0uBuTjbp" target="_blank" aria-label="youtube">
+              YouTube
             </a>
           </li>
           <li>
             <a className="hover:underline " href="https://www.instagram.com/zannaduband/" target="_blank" aria-label="instagram">
               Instagram
+            </a>
+          </li>
+          <li>
+            <a className="hover:underline " href="mailto:jaredsalzano@gmail.com" target="_blank" aria-label="email">
+              Email
             </a>
           </li>
           <li>
