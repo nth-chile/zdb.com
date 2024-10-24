@@ -21,7 +21,7 @@ export default async function Home() {
             </a>
           </li>
           <li>
-            <a className="hover:underline " href="mailto:jaredsalzano@gmail.com" target="_blank" aria-label="email">
+            <a className="hover:underline " href="mailto:jared@zannadu.band" target="_blank" aria-label="email">
               Email
             </a>
           </li>
