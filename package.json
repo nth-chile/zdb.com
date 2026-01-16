@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "dev:local": "USE_LOCAL_FS_SHOWS_LIB=true next dev",
+    "dev:local-fs-shows": "USE_LOCAL_FS_SHOWS_LIB=true next dev --webpack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
