@@ -1,8 +1,8 @@
 import ClientPlayer from "../../src/ClientPlayer"
-import getData from 'fs-shows/dist/fs-shows-gcloud'
-// import getData from '../../../fs-shows/dist/fs-shows-gcloud'
-import 'fs-shows/dist/style.css'
-// import '../../../fs-shows/dist/style.css'
+// import getData from 'fs-shows/dist/fs-shows-gcloud'
+import getData from '../../../fs-shows/dist/fs-shows-gcloud'
+// import 'fs-shows/dist/style.css'
+import '../../../fs-shows/dist/style.css'
 
 export default async function Shows() {
   const data = await getData('zdb-shows')
