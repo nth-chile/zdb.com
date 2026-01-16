@@ -8,7 +8,7 @@ const DynamicPlayer = dynamic(() => import('../../fs-shows/dist/Player'), {
   loading: () => <p>Loading...</p>,
   ssr: false
 })
- 
+
 export default function ClientPlayer(props: PlayerProps) {
   return <DynamicPlayer {...props} />
 }
